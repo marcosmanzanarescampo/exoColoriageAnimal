@@ -1,0 +1,103 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.canvas{
+
+    top: 0px;
+    left: 0;
+    position: relative;
+
+}
+
+.DrawZone{
+
+    top: 0;
+    left: 0;
+    position: absolute;
+    width: 92px; 
+    height: 100px;
+
+}
+
+.Modele{
+
+    top: 0;
+    left: 0;
+    position: absolute;
+    width: 92px; 
+    height: 100px;
+
+}
+
+
+/* pieces */
+
+
+.entreLesOreillesRouge{
+
+    position: absolute;
+
+    top: 11px;
+    left: 41px;
+
+    width: 0px;
+    height: 0px;
+    border-style: solid;
+
+    border-width: 0 5.5px 19px 5.5px;
+
+    border-color: transparent transparent #FF4532 transparent;
+
+
+    transform: rotate(180deg);     
+
+}
+
+
+.entreLesOreillesVert1{
+
+    position: absolute;
+
+    top: 12px;
+    left: 36px;
+
+    width: 0px;
+    height: 0px;
+    border-style: solid;
+    border-width: 19px 5.5px 0 5.5px;
+    border-color: #29FF40 transparent transparent transparent;
+    transform: rotate(330deg);   
+
+}
+
+.entreLesOreillesVert2{
+
+    position: absolute;
+
+    top: 12px;
+    left: 46px;
+
+    width: 0px;
+    height: 0px;
+    border-style: solid;
+    border-width: 19px 5.5px 0 5.5px;
+    border-color: #29FF40 transparent transparent transparent;
+    transform: rotate(30deg);   
+
+}
+
+.oreilleGauche1{
+    position: absolute;
+
+    top: 8px;
+    left: 1px;
+
+    width: 90px;
+    height: 90px;
+    background-color: magenta;
+
+    clip-path: polygon(12% 0, 26% 5%, 29% 14%, 22% 21%, 10% 13%);
+    
+}
